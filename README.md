@@ -3,7 +3,7 @@
 
 
 <h2>Description of the Application</h2>
-<p>The web application that we built is an online marketplace. The web application allows customers to create accounts, browse items available for
+<p>This web application is an online marketplace. The web application allows customers to create accounts, browse items available for
 sale in 4 categories (Books, Electronics, Household, and toys), and search for specific items and browse available items. The search function contains filters
 (category of item) to help the user find an item. Items are added to cart using the "Add to Cart" button. The cart is saved in HTML5 local storage. Once an item
 is added to the cart, the "Add to Cart" button is disabled and shows "Already in Cart" so the user knows what items are in cart.<br>
