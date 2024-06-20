@@ -1,0 +1,70 @@
+
+.page-head {
+  display: flex;  
+  align-items: center;  /* Makes the nav items and logo appear vertically centered with the search box*/
+  margin: 0;
+  padding: 0;
+  
+}
+
+.logo {
+  /* Prevent logo from shrinking 
+     so it doesn't collide when window gets narrow. */
+  flex-shrink: 0;
+}
+
+.search-form {
+  margin: 0 1rem;  
+  flex-grow: 1; /* <-- THE SECRET SAUCE! */
+  min-width: 18rem;
+}
+
+.search-box {
+  width: 100%;  
+  padding: 0.6rem;
+  border-radius:10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.site-nav1 > ul {
+  display: flex;
+  padding-left: 0.8rem;
+
+  margin: 0;
+}
+.site-nav2 > ul {
+  display: flex;
+  padding-left: 0.6rem;
+  margin: 0;
+}
+.site-nav__item {  
+  /* Prevent nav items from shrinking 
+     so they won't collide when window gets narrow. */
+  flex-shrink: 0;
+  padding: 0.5rem;
+  height:20px;
+  list-style-type: none;
+  margin: 0 .55rem;
+  cursor: pointer;
+  /* Prevent multi-word nav items from wrapping. */
+  white-space: nowrap;  
+  text-align: center;
+}
+
+.site-nav__item2 {  
+  /* Prevent nav items from shrinking 
+     so they won't collide when window gets narrow. */
+  flex-shrink: 0;
+  padding: 0.5rem;
+  height:65px;
+  list-style-type: none;
+  margin: 0 .55rem;
+  cursor: pointer;
+  /* Prevent multi-word nav items from wrapping. */
+  white-space: nowrap;  
+  text-align: center;
+}
+
+#categories{
+  height:30px;   
+ }
